@@ -1,0 +1,22 @@
+{
+    "name":"Vrijraj Singh",
+    "description":"Vrijraj Chrome Extension for more info about this contributions",
+    "manifest_version": 3,
+    "version": "1.0.0",
+    "icons": {
+        "128": "./images/icon.png"
+    },
+    "background":{
+        "service_worker": "./background.js"
+    },
+    "action":{
+        "default_popup":"./index.html",
+        "default_icons":{
+            "128": "./images/icon.png"
+        }
+    },
+    "options_page":"./options.html",
+    "permissions":[
+        "activeTab"
+    ]
+}
